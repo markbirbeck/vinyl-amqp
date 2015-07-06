@@ -1,6 +1,6 @@
 {
   "name": "vinyl-amqp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Presents an AMQP queue as either a source or destination stream of Vinyl objects.",
   "main": "lib",
   "scripts": {
