@@ -19,8 +19,8 @@
   "homepage": "https://github.com/markbirbeck/vinyl-amqp",
   "dependencies": {
     "amqp-sqs": "^1.2.0",
-    "event-stream": "~3.1.7",
+    "event-stream": "^3.3.1",
     "lodash": "^3.10.0",
-    "vinyl": "~0.4.6"
+    "vinyl": "^0.5.0"
   }
 }
