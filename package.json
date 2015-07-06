@@ -1,0 +1,26 @@
+{
+  "name": "vinyl-amqp",
+  "version": "0.1.0",
+  "description": "Presents an AMQP queue as either a source or destination stream of Vinyl objects.",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"No tests yet but returning success for deploy\" && exit 0"
+  },
+  "keywords": [
+    "vinyl",
+    "gulpfriendly",
+    "amqp",
+    "sqs"
+  ],
+  "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
+  "license": "MIT",
+  "repository": "markbirbeck/vinyl-amqp",
+  "bugs": "https://github.com/markbirbeck/vinyl-amqp/issues",
+  "homepage": "https://github.com/markbirbeck/vinyl-amqp",
+  "dependencies": {
+    "amqp-sqs": "^1.2.0",
+    "event-stream": "~3.1.7",
+    "lodash": "^3.10.0",
+    "vinyl": "~0.4.6"
+  }
+}
