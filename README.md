@@ -1,7 +1,7 @@
 # vinyl-amqp
 Presents an AMQP queue as either a source or destination stream of Vinyl objects.
 
-[![wercker status](https://app.wercker.com/status/10e6b819ab879fe8059f724ced477497/s/master "wercker status")](https://app.wercker.com/project/bykey/10e6b819ab879fe8059f724ced477497) ![Dependency Status](https://david-dm.org/markbirbeck/vinyl-amqp.svg)
+[![wercker status](https://app.wercker.com/status/10e6b819ab879fe8059f724ced477497/s/master "wercker status")](https://app.wercker.com/project/bykey/10e6b819ab879fe8059f724ced477497) [![Dependency Status](https://david-dm.org/markbirbeck/vinyl-amqp.svg)](https://david-dm.org/markbirbeck/vinyl-amqp)
 
 ## Example
 
