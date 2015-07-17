@@ -21,6 +21,7 @@
     "amqp-sqs": "^1.2.1",
     "event-stream": "^3.3.1",
     "lodash": "^3.10.0",
+    "through2": "^2.0.0",
     "vinyl": "^0.5.0"
   }
 }
