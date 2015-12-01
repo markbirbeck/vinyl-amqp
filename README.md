@@ -26,7 +26,7 @@ gulp.task('trigger', function() {
     .pipe(amqp.dest('hello-world-test'))
     .on('waiting', function() {
       console.log('Waiting...');
-    });
+    })
     .on('queued', function(flag) {
       console.log('Queued');
     });
