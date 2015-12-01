@@ -66,3 +66,17 @@ amqp:
 This will set the poll to be a quarter of a minute, or 15 seconds.
 
 More control will be provided over this behaviour in the future, such as allowing the stream to close if the queue is empty, setting the poll frequency in the `src()` function, and so on.
+
+#### Checking the Queue Size
+
+To get the count of the number of messages in the queue, set `getMessageCount` to `true` in the options parameter. Only the count will be returned, i.e., no messages will be read from the queue. For example:
+
+```javascript
+gulp.task('count', function() {
+  return amqp.src('hello-world-test', {getMessageCount: true})
+    .pipe(es.map(function(file, cb) {
+      console.log('message count:', file.contents.toString());
+    }))
+    .pipe(process.stdout);
+});
+```
